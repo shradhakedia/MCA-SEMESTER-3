@@ -1,0 +1,4 @@
+,Insertion Sort,Quick Sort,Merge sort
+Best case,10,45,19
+Avg case,24,15,22
+worst case,45,20,15
