@@ -1,7 +1,7 @@
 def det_inverse(input):
     possible_inverses = [1, 3, 5, 7, 9, 11, 15, 17, 19, 21, 23, 25]
     if input not in possible_inverses:
-        raise Exception(f"inverse for determinant {input} does not exist.")
+        raise Exception(f"inverse for determinant {input} does not exist. There are only 12 possibilties for the determinant: 1,3,5,7,9,11,15,17,19,21,23,25.")
 
     for inverse in range(1, 27):
         check = (input * inverse) % 26
@@ -81,10 +81,6 @@ def main(plain_text, key):
      
 
 if __name__ == '__main__':
-
-    print('''There are only 12 possibilties for the key: 1,3,5,7,9,11,15,17,19,21,23,25.
-These are only multipliers that can be used because they are the only multipliers that 
-can be used because they are the only integers that have inverses modulo 26.''')
 
     plain_text = input("Enter the message: ")
     if (len(plain_text) % 2) != 0:
