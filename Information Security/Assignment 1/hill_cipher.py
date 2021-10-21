@@ -1,6 +1,6 @@
 """ The following code uses Hill Cipher technique to encrypt and then decrypt the given message(Uppercase english alphabets) using 2 x 2 matrix as key.
 NOTE: In order to apply this technique the input message has to be of even length to facilitate matrix multiplication. 
-      Given an odd length message the letter 'X' is appndede to it.
+      Given an odd length message the letter 'X' is appended to it.
       
 SAMPLE INPUT:   Enter the message: MYNAMEISSHRADHA
                 Enter the 4 length key for 2 X 2 matrix: HILL
